@@ -19,8 +19,8 @@ public class Node
     this.L = new HashSet<String>();
   }
 
-	public Node(int label, int level, String gate_type)
-	{
+  public Node(int label, int level, String gate_type)
+  {
     this.label = label;
     this.level = level;
     this.gate_type = gate_type;
